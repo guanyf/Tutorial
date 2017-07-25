@@ -1,0 +1,72 @@
+
+
+
+
+exp ezoffice/13572468@oa file=d:/oa.dmp 【在cmd命令直接敲】--------备份数据库
+
+
+
+
+sqlplus / as sysdba;【连接数据库】
+drop user ezoffice cascade;【删除用户】
+
+
+dewfdfff
+
+rtrtretrffff
+dfdfdfd
+
+
+
+
+create user ezoffice identified by "13572468" default tablespace users;【创建用户】
+
+grant dba to ezoffice;       【赋权】
+
+exit;【退出连接】
+
+imp ezoffice/13572468@oa file=.dmp  full=yes 【实例oa导入】
+imp ezoffice/13572468@orcl file=.dmp  full=yes 【实例orcl导入】
+
+
+
+D:\jboss\jboss-as\server\oa\deploy\mssql-ds.xml（或oracle-ds.xml）
+修改其中ip地址、数据库实例名、用户密码为生产环境实际使用的值
+
+D:\jboss\jboss-as\server\oa\deploy\defaultroot.war\WEB-INF\config\whconfig.xml
+修改其中ip地址、数据库实例名、用户密码为生产环境实际使用的值
+
+
+
+
+登录地址：
+http://127.0.0.1:7001
+http://127.0.0.1:7001/defaultroot/login.jsp
+
+用户名：sys
+密  码：13572468
+
+
+查看库版本
+select * from oa_patchinfo
+
+查看表tfiele参数
+desc tfield
+
+修改表TFIELD里的FIELD_CODE字段长度
+alter table TFIELD  modify FIELD_CODE varchar2(50);
+
+alter table WF_IMMOBILITYFIELD  modify IMMOFIELD_POFIELD varchar2(50);
+
+编辑表数据
+select t.*, t.rowid from OA_CUSTMENU t where menu_name in ('工作流程','信息管理')
+
+查找表-字段数据
+select righturlset from oa_custmenu where menu_name like '%工作流程%';
+
+select * from oa_custmenu where menu_name in ('预算管理','文档管理','远景报表','排行榜','财务报表','人事管理');
+select menu_name,lefturlset,righturlset from oa_custmenu where menu_name in ('预算管理','文档管理','远景报表','排行榜','财务报表','人事管理');
+
+
+
+
