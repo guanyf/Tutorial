@@ -1,0 +1,137 @@
+2017-07-25 09:02:50,031: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::WinMain Begin.
+2017-07-25 09:02:50,031: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::WinMain StartServiceCtrlDispatcher.
+2017-07-25 09:02:50,031: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::WinMain ServiceMain Begin.
+2017-07-25 09:02:50,031: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::ServiceMain().plugin_mfiles.Enable=1 End.
+2017-07-25 09:02:50,031: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::ServiceMain().DoInit Begin.
+2017-07-25 09:02:50,031: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::DoInit Begin_161028_A1.
+2017-07-25 09:02:50,031: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::DoInitConfig: g_sCurProcName=UEBAMFileServiceX64.exe.
+2017-07-25 09:02:50,031: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::DoInitConfig: g_sNetDiskName=.
+2017-07-25 09:02:50,031: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::DoInitConfig g_sEnable=1, g_sFilter=^((?!\\AppData\\|\\Cookies\\|\\Application Data\\|~\$).)*?.(doc|txt|docx)$, g_sEHash=1, g_sFilter_proc=^.*?$.
+2017-07-25 09:02:50,031: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::DoInitConfig: EFWrite is True.
+2017-07-25 09:02:50,031: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::DoInitConfig: EFRename is True.
+2017-07-25 09:02:50,031: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::DoInitConfig: EFDel is True.
+2017-07-25 09:02:50,031: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::DoInitConfig: EFCreate is True.
+2017-07-25 09:02:50,062: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::DoInit Begin g_sRetFltmc=服务的实例已在运行中。
+80070420
+
+2017-07-25 09:02:50,062: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::DoStartMainTask Begin g_nCommandCount=0.
+2017-07-25 09:02:50,062: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::MFileCommandInit Begin.
+2017-07-25 09:02:50,078: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::ListstrDevices g_diskListStr=C:|D:.
+2017-07-25 09:02:50,078: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::MFileCommandInit End.
+2017-07-25 09:02:50,078: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::MFileCommandInit g_nCommandCount=5.
+2017-07-25 09:02:50,078: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::MFileBeginTask Begin.
+2017-07-25 09:02:50,078: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::FilterConnectCommunicationPort Begin.
+2017-07-25 09:02:50,078: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::CreateSemaphore Begin.
+2017-07-25 09:02:50,078: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::InterpretCommandExt Begin.
+2017-07-25 09:02:50,078: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::InterpretCommandExt FilterAttach hResult=0, Disk=C:.
+2017-07-25 09:02:50,078: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::InterpretCommandExt FilterAttach hResult=0, Disk=D:.
+2017-07-25 09:02:50,078: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::CreateThread Begin.
+2017-07-25 09:02:50,078: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::MFileBeginTask End.
+2017-07-25 09:02:50,078: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::BeginWindowMsgThreadFun Begin.
+2017-07-25 09:02:50,078: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::BeginWindowMsgThreadFun CreateThread.
+2017-07-25 09:02:50,078: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::DoStartMainTask End Ret=0.
+2017-07-25 09:02:50,078: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::MFileRetrieveLogRecords Begin.
+2017-07-25 09:02:50,078: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::DoInit Begin Ret=0.
+2017-07-25 09:02:50,078: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::ServiceMain().DoInit=0 End.
+2017-07-25 09:02:50,078: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::BeginWindowmMsg_ThreadFun begin.
+2017-07-25 09:02:50,078: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::BeginWindowmMsg_ThreadFun - DoWinMain begin.
+2017-07-25 09:02:50,078: INFO [S0P2292]->UEBAMFileServiceX64.exe: CUEBAUdpLog::Initialize Success
+2017-07-25 09:02:50,078: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::MFileRetrieveLogRecords udpLog.Initialize(161028_C1446) Begin.
+2017-07-25 09:02:50,078: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::MFileRetrieveLogRecords wsReg＝^((?!\\AppData\\|\\Cookies\\|\\Application Data\\|~\$).)*?.(doc|txt|docx)$.
+2017-07-25 09:02:50,078: INFO [S0P2292]->UEBAMFileServiceX64.exe: UEBA::MFileRetrieveLogRecords sPReg＝^.*?$.
+2017-07-25 09:28:36,129: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::WinMain Begin.
+2017-07-25 09:28:36,129: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::WinMain StartServiceCtrlDispatcher.
+2017-07-25 09:28:36,129: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::WinMain ServiceMain Begin.
+2017-07-25 09:28:36,145: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::ServiceMain().plugin_mfiles.Enable=1 End.
+2017-07-25 09:28:36,145: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::ServiceMain().DoInit Begin.
+2017-07-25 09:28:36,145: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::DoInit Begin_161028_A1.
+2017-07-25 09:28:36,145: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::DoInitConfig: g_sCurProcName=UEBAMFileServiceX64.exe.
+2017-07-25 09:28:36,145: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::DoInitConfig: g_sNetDiskName=.
+2017-07-25 09:28:36,145: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::DoInitConfig g_sEnable=1, g_sFilter=^((?!\\AppData\\|\\Cookies\\|\\Application Data\\|~\$).)*?.(doc|txt|docx)$, g_sEHash=1, g_sFilter_proc=^.*?$.
+2017-07-25 09:28:36,145: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::DoInitConfig: EFWrite is True.
+2017-07-25 09:28:36,145: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::DoInitConfig: EFRename is True.
+2017-07-25 09:28:36,145: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::DoInitConfig: EFDel is True.
+2017-07-25 09:28:36,145: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::DoInitConfig: EFCreate is True.
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::DoInit Begin g_sRetFltmc=服务的实例已在运行中。
+80070420
+
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::DoStartMainTask Begin g_nCommandCount=0.
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::MFileCommandInit Begin.
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::ListstrDevices g_diskListStr=C:|D:.
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::MFileCommandInit End.
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::MFileCommandInit g_nCommandCount=5.
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::MFileBeginTask Begin.
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::FilterConnectCommunicationPort Begin.
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::CreateSemaphore Begin.
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::InterpretCommandExt Begin.
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::InterpretCommandExt FilterAttach hResult=0, Disk=C:.
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::InterpretCommandExt FilterAttach hResult=0, Disk=D:.
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::CreateThread Begin.
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::MFileBeginTask End.
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::BeginWindowMsgThreadFun Begin.
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::BeginWindowMsgThreadFun CreateThread.
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::MFileRetrieveLogRecords Begin.
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::DoStartMainTask End Ret=0.
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::DoInit Begin Ret=0.
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::ServiceMain().DoInit=0 End.
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::BeginWindowmMsg_ThreadFun begin.
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::BeginWindowmMsg_ThreadFun - DoWinMain begin.
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: CUEBAUdpLog::Initialize Success
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::MFileRetrieveLogRecords udpLog.Initialize(161028_C1446) Begin.
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::MFileRetrieveLogRecords wsReg＝^((?!\\AppData\\|\\Cookies\\|\\Application Data\\|~\$).)*?.(doc|txt|docx)$.
+2017-07-25 09:28:36,176: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::MFileRetrieveLogRecords sPReg＝^.*?$.
+2017-07-25 09:28:44,413: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::ServiceMain().DoExitMainTask Begin.
+2017-07-25 09:28:44,413: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::DoExitMainTask Begin.
+2017-07-25 09:28:44,413: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::DoExitMainTask g_lTaskContext.CleaningUp = TRUE.
+2017-07-25 09:28:44,413: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::BeginWindowmMsg_ThreadFun - DoWinMain end.
+2017-07-25 09:28:44,413: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::BeginWindowmMsg_ThreadFun end.
+2017-07-25 09:28:44,475: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::MFileRetrieveLogRecords if (g_lTaskContext.CleaningUp).
+2017-07-25 09:28:44,475: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::Log: Shutting down End.
+2017-07-25 09:28:44,475: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::DoExitMainTask WaitForSingleObject( g_lTaskContext.ShutDown, INFINITE ).
+2017-07-25 09:28:44,475: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::DoExitMainTask if(g_lTaskContext.ShutDown) .
+2017-07-25 09:28:44,475: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::DoExitMainTask InterpretCommandExt .
+2017-07-25 09:28:44,475: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::DoExitMainTask End.
+2017-07-25 09:28:44,475: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::ServiceMain().ExitService.
+2017-07-25 09:28:44,475: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::ServiceMain End.
+2017-07-25 09:28:44,475: INFO [S0P600]->UEBAMFileServiceX64.exe: UEBA::WinMain End.
+2017-07-25 09:28:49,717: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::WinMain Begin.
+2017-07-25 09:28:49,717: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::WinMain StartServiceCtrlDispatcher.
+2017-07-25 09:28:49,717: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::WinMain ServiceMain Begin.
+2017-07-25 09:28:49,717: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::ServiceMain().plugin_mfiles.Enable=1 End.
+2017-07-25 09:28:49,717: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::ServiceMain().DoInit Begin.
+2017-07-25 09:28:49,717: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::DoInit Begin_161028_A1.
+2017-07-25 09:28:49,717: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::DoInitConfig: g_sCurProcName=UEBAMFileServiceX64.exe.
+2017-07-25 09:28:49,717: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::DoInitConfig: g_sNetDiskName=.
+2017-07-25 09:28:49,717: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::DoInitConfig g_sEnable=1, g_sFilter=^((?!\\AppData\\|\\Cookies\\|\\Application Data\\|~\$).)*?.(doc|txt|docx)$, g_sEHash=1, g_sFilter_proc=^.*?$.
+2017-07-25 09:28:49,717: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::DoInitConfig: EFWrite is True.
+2017-07-25 09:28:49,717: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::DoInitConfig: EFRename is True.
+2017-07-25 09:28:49,717: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::DoInitConfig: EFDel is True.
+2017-07-25 09:28:49,717: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::DoInitConfig: EFCreate is True.
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::DoInit Begin g_sRetFltmc=服务的实例已在运行中。
+80070420
+
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::DoStartMainTask Begin g_nCommandCount=0.
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::MFileCommandInit Begin.
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::ListstrDevices g_diskListStr=C:|D:.
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::MFileCommandInit End.
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::MFileCommandInit g_nCommandCount=5.
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::MFileBeginTask Begin.
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::FilterConnectCommunicationPort Begin.
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::CreateSemaphore Begin.
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::InterpretCommandExt Begin.
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::InterpretCommandExt FilterAttach hResult=2149515282, Disk=C:.
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::InterpretCommandExt FilterAttach hResult=2149515282, Disk=D:.
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::CreateThread Begin.
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::MFileBeginTask End.
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::BeginWindowMsgThreadFun Begin.
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::BeginWindowMsgThreadFun CreateThread.
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::DoStartMainTask End Ret=0.
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::DoInit Begin Ret=0.
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::ServiceMain().DoInit=0 End.
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::MFileRetrieveLogRecords Begin.
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::BeginWindowmMsg_ThreadFun begin.
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::BeginWindowmMsg_ThreadFun - DoWinMain begin.
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: CUEBAUdpLog::Initialize Success
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::MFileRetrieveLogRecords udpLog.Initialize(161028_C1446) Begin.
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::MFileRetrieveLogRecords wsReg＝^((?!\\AppData\\|\\Cookies\\|\\Application Data\\|~\$).)*?.(doc|txt|docx)$.
+2017-07-25 09:28:49,733: INFO [S0P4004]->UEBAMFileServiceX64.exe: UEBA::MFileRetrieveLogRecords sPReg＝^.*?$.
